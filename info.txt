@@ -1,0 +1,3 @@
+card.png - Card-Size 300*426
+
+small - 150*213

@@ -1,0 +1,125 @@
+* {
+    background-color: crimson;
+    color: aliceblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+#dealer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 300px;
+    min-width: 750px;
+    max-width: 80vw;
+    margin: 20px;
+    border: 5px solid aliceblue;
+}
+#dealer > img {
+    padding: 5px;
+}
+#dValue {
+    font-size: 1.5rem;
+}
+
+#player {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 300px;
+    min-width: 750px;
+    max-width: 80vw;
+    margin: 20px;
+    border: 5px solid aliceblue;
+}
+
+#player > img {
+    padding: 5px;
+}
+#pValue {
+    font-size: 1.5rem;
+}
+
+#Buttons {
+    display: flex;
+    flex-flow: row;
+}
+
+.btn {
+    display: block;
+    border: 2px solid aliceblue;
+    border-radius: 15px;
+    padding: 15px;
+    margin: 15px;
+    cursor: pointer;
+    background-color: rgb(233, 53, 89);
+    font-size: 2rem;
+}
+.btn_hidden {
+    display: none;
+    border: 2px solid aliceblue;
+    border-radius: 15px;
+    padding: 15px;
+    margin: 15px;
+    cursor: pointer;
+    background-color: rgb(233, 53, 89);
+    font-size: 2rem;
+}
+
+.btn:hover {
+    background-color: crimson;
+}
+
+.hide {
+    display: none;
+}
+.show {
+    display: block;
+}
+
+.overlay {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 90vw;
+    height: 90vh;
+    top: 5vh;
+    bottom: 5vh;
+    left: 5vw;
+    right: 5vw;
+    border: 5px solid aliceblue;
+    background-color: rgb(0, 0, 0, 0.7);
+}
+
+#loseh1 {
+    font-size: 8rem;
+    background-color: rgba(255, 255, 255, 0);
+    color: rgba(240, 248, 255, 0.7);
+}
+#loseP {
+    font-size: 2rem;
+    background-color: rgba(255, 255, 255, 0);
+    color: rgba(240, 248, 255, 0.7);
+}
+
+#winh1 {
+    font-size: 8rem;
+    background-color: rgba(255, 255, 255, 0);
+    color: rgba(240, 248, 255, 0.7);
+}
+#winP {
+    font-size: 2rem;
+    background-color: rgba(0, 255, 21, 0.7);
+    color: rgba(240, 248, 255, 0.7);
+}
